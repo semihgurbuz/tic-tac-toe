@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(3, 120px);
+}
+
+.cell {
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
