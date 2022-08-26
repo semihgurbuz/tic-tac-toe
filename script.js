@@ -186,6 +186,9 @@ const gameFlow = (() => {
         gameboard[6] === "o"
       ) {
         setWinner(player2);
+      } else if (!gameboard.includes("")) {
+        winner.textContent = `Draw !`;
+        gameBoard.freeze();
       }
     });
   }
