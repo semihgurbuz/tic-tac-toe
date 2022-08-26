@@ -1,12 +1,19 @@
 html,
 body {
+  padding: 0;
   margin: 0;
   height: 100vh;
+  overflow: hidden;
 }
 
 header {
   text-align: center;
 }
+
+header div {
+  margin-bottom: 30px;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -27,6 +34,23 @@ main {
   font-size: larger;
 }
 
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+button {
+  width: 150px;
+  height: 40px;
+  font-size: larger;
+}
+.winner {
+  flex: 1 0 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: larger;
+}
 footer {
   margin-top: 20px;
   text-align: center;
